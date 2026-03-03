@@ -1,0 +1,10 @@
+[package]
+name = "lesson088_actix_web_basics"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = { version = "4", default-features = false, features = ["macros"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+tokio = { version = "1", features = ["full"] }

@@ -1,0 +1,4 @@
+[package]
+name = "lesson096_redis_client"
+version = "0.1.0"
+edition = "2021"

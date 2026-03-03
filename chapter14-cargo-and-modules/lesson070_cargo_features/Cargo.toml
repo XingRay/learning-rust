@@ -1,0 +1,37 @@
+[package]
+name = "lesson070_cargo_features"
+version = "0.1.0"
+edition = "2021"
+
+# ============================================================
+# Feature 标志定义示例
+# ============================================================
+# 在 Cargo.toml 中通过 [features] 段定义 feature 标志：
+#
+# [features]
+# default = ["json"]       # 默认启用的 features
+# json = []                # 空数组表示不依赖其他 feature
+# xml = []
+# full = ["json", "xml"]   # 可以组合多个 feature
+#
+# 使用方式：
+#   cargo build                     -> 使用默认 features
+#   cargo build --features "xml"    -> 额外启用 xml
+#   cargo build --no-default-features -> 禁用默认 features
+#   cargo build --no-default-features --features "xml" -> 只启用 xml
+#
+# 可选依赖与 feature 绑定：
+# [dependencies]
+# serde = { version = "1.0", optional = true }
+# serde_json = { version = "1.0", optional = true }
+#
+# [features]
+# json = ["serde", "serde_json"]   # 启用 json feature 时自动引入这两个依赖
+# ============================================================
+
+[features]
+default = ["greeting"]
+greeting = []
+advanced_math = []
+logging = []
+full = ["greeting", "advanced_math", "logging"]

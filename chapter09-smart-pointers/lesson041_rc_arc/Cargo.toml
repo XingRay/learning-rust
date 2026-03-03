@@ -1,0 +1,4 @@
+[package]
+name = "lesson041_rc_arc"
+version = "0.1.0"
+edition = "2021"

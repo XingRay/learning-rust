@@ -1,0 +1,4 @@
+[package]
+name = "lesson083_http_server_basics"
+version = "0.1.0"
+edition = "2021"

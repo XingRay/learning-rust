@@ -1,0 +1,6 @@
+[package]
+name = "lesson037_closure_as_param"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]

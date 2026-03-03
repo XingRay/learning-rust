@@ -1,0 +1,6 @@
+[package]
+name = "lesson038_fn_traits"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]

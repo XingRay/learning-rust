@@ -1,0 +1,6 @@
+[package]
+name = "lesson039_functional_combinators"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]

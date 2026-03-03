@@ -1,0 +1,4 @@
+[package]
+name = "lesson094_diesel_orm"
+version = "0.1.0"
+edition = "2021"

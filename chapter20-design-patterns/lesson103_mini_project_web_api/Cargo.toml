@@ -1,0 +1,4 @@
+[package]
+name = "lesson103_mini_project_web_api"
+version = "0.1.0"
+edition = "2021"

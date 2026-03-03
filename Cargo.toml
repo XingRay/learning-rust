@@ -1,0 +1,146 @@
+[workspace]
+resolver = "2"
+members = [
+    # Chapter 01 - Rust 基础入门
+    "chapter01-basic/lesson001_helloworld",
+    "chapter01-basic/lesson002_variables",
+    "chapter01-basic/lesson003_data_types",
+    "chapter01-basic/lesson004_functions",
+    "chapter01-basic/lesson005_control_flow",
+    "chapter01-basic/lesson006_comments",
+    "chapter01-basic/lesson007_strings",
+
+    # Chapter 02 - 所有权系统
+    "chapter02-ownership/lesson008_ownership",
+    "chapter02-ownership/lesson009_references",
+    "chapter02-ownership/lesson010_slices",
+    "chapter02-ownership/lesson011_lifetime_basics",
+
+    # Chapter 03 - 结构体与枚举
+    "chapter03-struct-and-enum/lesson012_struct_basics",
+    "chapter03-struct-and-enum/lesson013_struct_methods",
+    "chapter03-struct-and-enum/lesson014_enum_basics",
+    "chapter03-struct-and-enum/lesson015_option_enum",
+    "chapter03-struct-and-enum/lesson016_match_expression",
+
+    # Chapter 04 - 泛型与模式匹配
+    "chapter04-pattern-and-generics/lesson017_generics",
+    "chapter04-pattern-and-generics/lesson018_pattern_matching",
+    "chapter04-pattern-and-generics/lesson019_if_let_while_let",
+
+    # Chapter 05 - 错误处理
+    "chapter05-error-handling/lesson020_panic",
+    "chapter05-error-handling/lesson021_result_type",
+    "chapter05-error-handling/lesson022_error_propagation",
+    "chapter05-error-handling/lesson023_custom_errors",
+
+    # Chapter 06 - 集合与迭代器
+    "chapter06-collections-and-iterators/lesson024_vector",
+    "chapter06-collections-and-iterators/lesson025_hashmap",
+    "chapter06-collections-and-iterators/lesson026_hashset",
+    "chapter06-collections-and-iterators/lesson027_iterator_basics",
+    "chapter06-collections-and-iterators/lesson028_iterator_adapters",
+    "chapter06-collections-and-iterators/lesson029_custom_iterator",
+
+    # Chapter 07 - Trait 与高级类型
+    "chapter07-traits-and-advanced-types/lesson030_trait_basics",
+    "chapter07-traits-and-advanced-types/lesson031_trait_bounds",
+    "chapter07-traits-and-advanced-types/lesson032_common_traits",
+    "chapter07-traits-and-advanced-types/lesson033_trait_objects",
+    "chapter07-traits-and-advanced-types/lesson034_associated_types",
+    "chapter07-traits-and-advanced-types/lesson035_newtype_pattern",
+
+    # Chapter 08 - 闭包与函数式编程
+    "chapter08-closures-and-functional/lesson036_closure_basics",
+    "chapter08-closures-and-functional/lesson037_closure_as_param",
+    "chapter08-closures-and-functional/lesson038_fn_traits",
+    "chapter08-closures-and-functional/lesson039_functional_combinators",
+
+    # Chapter 09 - 智能指针
+    "chapter09-smart-pointers/lesson040_box",
+    "chapter09-smart-pointers/lesson041_rc_arc",
+    "chapter09-smart-pointers/lesson042_refcell",
+    "chapter09-smart-pointers/lesson043_deref_drop",
+    "chapter09-smart-pointers/lesson044_weak_reference",
+
+    # Chapter 10 - 并发编程
+    "chapter10-concurrency/lesson045_threads",
+    "chapter10-concurrency/lesson046_message_passing",
+    "chapter10-concurrency/lesson047_shared_state",
+    "chapter10-concurrency/lesson048_mutex_rwlock",
+    "chapter10-concurrency/lesson049_atomic",
+    "chapter10-concurrency/lesson050_send_sync",
+
+    # Chapter 11 - 异步编程
+    "chapter11-async-programming/lesson051_async_await_basics",
+    "chapter11-async-programming/lesson052_future_trait",
+    "chapter11-async-programming/lesson053_tokio_runtime",
+    "chapter11-async-programming/lesson054_async_channels",
+    "chapter11-async-programming/lesson055_select_join",
+    "chapter11-async-programming/lesson056_async_streams",
+
+    # Chapter 12 - 宏编程
+    "chapter12-macros/lesson057_declarative_macros",
+    "chapter12-macros/lesson058_macro_rules_advanced",
+    "chapter12-macros/lesson059_derive_macros",
+    "chapter12-macros/lesson060_attribute_macros",
+    "chapter12-macros/lesson061_proc_macro_workshop",
+
+    # Chapter 13 - 测试
+    "chapter13-testing/lesson062_unit_tests",
+    "chapter13-testing/lesson063_integration_tests",
+    "chapter13-testing/lesson064_doc_tests",
+    "chapter13-testing/lesson065_benchmark",
+    "chapter13-testing/lesson066_mocking",
+
+    # Chapter 14 - Cargo 与模块系统
+    "chapter14-cargo-and-modules/lesson067_module_system",
+    "chapter14-cargo-and-modules/lesson068_packages_crates",
+    "chapter14-cargo-and-modules/lesson069_use_and_pub",
+    "chapter14-cargo-and-modules/lesson070_cargo_features",
+    "chapter14-cargo-and-modules/lesson071_workspace",
+    "chapter14-cargo-and-modules/lesson072_publish_crate",
+
+    # Chapter 15 - I/O 与文件系统
+    "chapter15-io-and-filesystem/lesson073_stdin_stdout",
+    "chapter15-io-and-filesystem/lesson074_file_read_write",
+    "chapter15-io-and-filesystem/lesson075_path_operations",
+    "chapter15-io-and-filesystem/lesson076_directory_traversal",
+    "chapter15-io-and-filesystem/lesson077_serde_json",
+    "chapter15-io-and-filesystem/lesson078_serde_toml_yaml",
+
+    # Chapter 16 - 网络编程
+    "chapter16-networking/lesson079_tcp_server",
+    "chapter16-networking/lesson080_tcp_client",
+    "chapter16-networking/lesson081_udp",
+    "chapter16-networking/lesson082_http_client_reqwest",
+    "chapter16-networking/lesson083_http_server_basics",
+
+    # Chapter 17 - Unsafe 与 FFI
+    "chapter17-unsafe-and-ffi/lesson084_unsafe_basics",
+    "chapter17-unsafe-and-ffi/lesson085_raw_pointers",
+    "chapter17-unsafe-and-ffi/lesson086_ffi_c_interop",
+    "chapter17-unsafe-and-ffi/lesson087_extern_functions",
+
+    # Chapter 18 - Web 开发
+    "chapter18-web-development/lesson088_actix_web_basics",
+    "chapter18-web-development/lesson089_axum_basics",
+    "chapter18-web-development/lesson090_rest_api",
+    "chapter18-web-development/lesson091_middleware",
+    "chapter18-web-development/lesson092_websocket",
+
+    # Chapter 19 - 数据库
+    "chapter19-database/lesson093_sqlx_basics",
+    "chapter19-database/lesson094_diesel_orm",
+    "chapter19-database/lesson095_sea_orm",
+    "chapter19-database/lesson096_redis_client",
+    "chapter19-database/lesson097_mongodb",
+
+    # Chapter 20 - 设计模式与项目实战
+    "chapter20-design-patterns/lesson098_builder_pattern",
+    "chapter20-design-patterns/lesson099_state_pattern",
+    "chapter20-design-patterns/lesson100_observer_pattern",
+    "chapter20-design-patterns/lesson101_command_pattern",
+    "chapter20-design-patterns/lesson102_mini_project_cli_tool",
+    "chapter20-design-patterns/lesson103_mini_project_web_api",
+]

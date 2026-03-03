@@ -1,0 +1,4 @@
+[package]
+name = "lesson058_macro_rules_advanced"
+version = "0.1.0"
+edition = "2021"

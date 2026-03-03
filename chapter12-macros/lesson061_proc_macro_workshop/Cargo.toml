@@ -1,0 +1,4 @@
+[package]
+name = "lesson061_proc_macro_workshop"
+version = "0.1.0"
+edition = "2021"

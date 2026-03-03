@@ -1,0 +1,4 @@
+[package]
+name = "lesson101_command_pattern"
+version = "0.1.0"
+edition = "2021"

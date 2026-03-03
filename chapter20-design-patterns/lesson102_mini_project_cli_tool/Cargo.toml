@@ -1,0 +1,4 @@
+[package]
+name = "lesson102_mini_project_cli_tool"
+version = "0.1.0"
+edition = "2021"

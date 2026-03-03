@@ -1,0 +1,4 @@
+[package]
+name = "lesson069_use_and_pub"
+version = "0.1.0"
+edition = "2021"

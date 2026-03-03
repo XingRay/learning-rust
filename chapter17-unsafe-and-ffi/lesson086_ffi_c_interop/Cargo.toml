@@ -1,0 +1,6 @@
+[package]
+name = "lesson086_ffi_c_interop"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
